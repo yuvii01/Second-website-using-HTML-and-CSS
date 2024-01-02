@@ -1,0 +1,249 @@
+*{
+    font-family: "Myriad Pro"; 
+}
+body{
+    background-color: black;
+}
+.main{
+    width: 1000px;
+    margin: auto;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+header{
+    background :url(/images/headerbg.jpg) ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+    align-items: center;
+    height: auto;
+}
+.headercontent{
+    width: 290px;
+    font-size: 18px;
+    color: white;
+    margin-top: 15px ;
+    margin-left: 40px;
+    padding: 20px 10px ;
+    background: url(/images/topcontactbg.png) no-repeat;
+}
+.logo{
+    margin-left: 25px;
+}
+.headercontentt{
+    padding: 4px;
+}
+.headercontentt a{
+    margin-left: 15px;
+}
+.navcontent{
+    margin-top: 2px;
+    /* border: 1px solid black; */
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+   
+}
+.nav{
+    background: url(/images/menubg.jpg);
+    height: 43px;
+    border-bottom: 3px white solid;
+}
+.navcontent li a{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 14px;
+     font-family: "Myriad Pro"; 
+     border-right: solid 1px #2966ab;
+    padding: 13px 18px;
+    margin-left: 0px;
+}
+.navcontent li a:hover {
+    background-size: none;
+}
+.leftdiv{
+    float: left;
+    display: flex;
+    width: 198px;
+    height: 280px;
+    background : white;
+    color: #286f95;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+padding: 0 20px ;
+margin-left: 0px;
+box-shadow: #246284 0px 0px 11px 7px;
+}
+
+.leftitem{
+    border:.01px dotted grey ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 20px;
+}
+.sepa{
+    float: left;
+}
+.rightdiv{
+    float: left;
+    box-shadow: #246284 0px 0px 11px 7px;
+    height: auto;
+}
+.maincontent{
+    display: flex;
+    background-color: white;
+}
+.rightdivv{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 37px;
+    /* padding-top:22px; */
+    /* font-size: 20px; */
+  
+}
+.rightdivheading{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #747773;
+    width: 655px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.images{padding-top: 40px;
+    padding-right: 40px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+.galleryimage{
+    padding: 10px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background: white;
+}
+.leftcontent{
+    /* flex-flow: row wrap; */
+    width: 254px;
+    height: 100%;
+    float: left;
+}
+.ourcompany{
+    color: #286f95;
+    height: auto;
+    font-size: 18px;
+    /* justify-content: center; */
+
+}
+.wscube{
+    margin-top: 30px;
+    margin-left: 40px;
+ 
+}
+.headingright{
+    font-size: 28px;
+    color: #286f95;
+}
+.rightcontent{
+    height: auto;
+ float: left;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 220px;
+     background: url(/images/footerbg.jpg);
+}
+
+.quicklinks{
+    margin-left: 10px;
+    
+    display: flex;
+    color: white;
+    width: 33.33%;
+    height: 250px;
+    float: left;
+    flex-wrap: wrap;
+}
+.quickservices{
+    color: white;
+    width: 33.33%;
+    height: 250px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quicklocation{
+    width: 33.34%;
+    color: white;
+    float: left;
+}
+.qlul1{
+    margin-left: -100px;
+}
+.box{
+    /* justify-content: space-evenly; */
+    align-items: center;
+    text-align: right;
+    display: flex;
+    width: 102px;
+    height: 46px;
+    border: 1px solid ;
+    border-radius: 15px;
+    background: url(images/my.png) no-repeat;
+    padding-left: 57px;
+
+}
+footer ul{
+    list-style-type: none;
+}
+.quicklinks li{
+    margin-top: 10px;
+    margin-right: 3px;
+}
+.quickservices li{
+    margin-top: 10px;
+    margin-right: 3px;
+}
+.inquiryform{
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 34px;
+}
+.khushi{
+    padding: 10px;
+}
+ form button{
+    cursor: pointer;
+    width: 70px;height: 35px;
+    border: 1px solid  #09F ;
+    border-radius: 10px;
+
+
+margin-top: 25px;
+background: #09F;
+color: white;
+
+    
+}
+.rest-content{
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: left;
+}
+.contactuscontent{
+    padding: 10px;
+}
+
+
